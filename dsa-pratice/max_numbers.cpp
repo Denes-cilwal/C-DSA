@@ -16,16 +16,16 @@ int main(){
 
     if (a >b){
         if (a > c){
-            cout << "the max number is a\n";
+            cout << a << endl ;
         }else{
-            cout << "the max number is c\n";
+            cout << c << endl ;
         }
     }else if(b>c){
 
-            cout << "the max number is b\n";
+        cout << b << endl ;
 
         }else{
-            cout << "the max number is c\n";
+        cout << c << endl ;
 
         }
 
