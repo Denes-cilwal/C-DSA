@@ -4,31 +4,33 @@
 
 
 #include <iostream>
-using  namespace  std;
 
-int main(){
+// io-stream is a header file included from where we take input and output | like import in golang
+using namespace std;
+
+int main() {
     int a, b, c;
 
     // taking input from user
-    cin >> a ;
+    cin >> a;
     cin >> b;
     cin >> c;
 
-    if (a >b){
-        if (a > c){
-            cout << a << endl ;
-        }else{
-            cout << c << endl ;
+    if (a > b) {
+        if (a > c) {
+            cout << a << endl;
+        } else {
+            cout << c << endl;
         }
-    }else if(b>c){
+    } else if (b > c) {
 
-        cout << b << endl ;
+        cout << b << endl;
 
-        }else{
-        cout << c << endl ;
+    } else {
+        cout << c << endl;
 
-        }
+    }
 
-    return  0;
+    return 0;
 }
 
